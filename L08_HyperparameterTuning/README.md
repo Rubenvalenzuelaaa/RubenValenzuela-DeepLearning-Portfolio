@@ -76,3 +76,41 @@ Sampled hyperparameters:
 ## 🗂️ Saved Artifacts
 The code saves:
 
+These ensure full reproducibility and allow external loading of the tuned model.
+
+---
+
+## 📝 Reflection Summary
+
+**1. Model Behavior (Bias vs Variance)**  
+The learning curve shows that training and validation accuracies converge closely → **balanced model**.
+
+**2. Improvement Over Baseline**  
+No major improvement in accuracy or ROC AUC, because:
+- baseline SVC was already highly optimized  
+- dataset is linearly separable in many dimensions  
+
+**3. Over-Regularization**  
+Observed when:
+- C is too small  
+- gamma is too small  
+
+Validation score dips due to overly smooth decision boundaries.
+
+**4. What if we had ×10 more data?**  
+We could safely:
+- increase **C** (less regularization)  
+- slightly decrease **gamma** (smoother boundary)  
+
+More data supports higher model complexity without overfitting.
+
+---
+
+## 🎓 Learning Outcomes
+- Mastered SVC hyperparameter tuning  
+- Understood model stability via learning/validation curves  
+- Practiced structured ML experimentation workflow  
+- Learned how to save and document ML artifacts professionally  
+
+---
+
