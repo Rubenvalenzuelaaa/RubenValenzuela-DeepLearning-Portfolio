@@ -50,5 +50,37 @@ The system updates internal weighting and improves future summaries.
 
 ---
 
-## 📂 Repository Structure
+
+---
+
+---
+
+## 🧠 Key Technologies Used
+
+- Python  
+- Transformers / SentenceTransformers  
+- ChromaDB  
+- DuckDuckGo Search  
+- BeautifulSoup4  
+- ReAct Reasoning  
+- Summarization Models  
+- Reinforcement Learning (lightweight loop)  
+
+---
+
+## 📄 Documentation
+
+All formal project submissions are included:
+
+- **Finalproject_2376.pdf** — formatted project PDF  
+- **FINALPROJECT_ITAI2376.docx** — editable version  
+- **Finalproject_2376.ipynb** — full code & logs  
+
+---
+
+## 💬 Author  
+**Ruben Valenzuela**  
+_AI Alchemists Team_  
+ITAI 2376 – Fall Semester
+
 
