@@ -1,4 +1,4 @@
-Machine Learning Concepts Review
+A02 — Machine Learning Concepts Review
 
 This project provides a clear and structured explanation of foundational machine learning concepts, including training vs. validation, underfitting vs. overfitting, classification vs. regression, and confusion matrices.
 It includes a professional PDF write-up demonstrating your understanding of how ML models generalize, how they fail, and how their performance is evaluated.
